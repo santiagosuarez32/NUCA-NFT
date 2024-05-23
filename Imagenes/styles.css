@@ -98,6 +98,7 @@ padding: 70px 0;
     flex-direction: column;
     gap: 20px;
     width: 50%;
+    align-items: flex-start;
     
 }
 
@@ -131,3 +132,33 @@ padding: 70px 0;
 
 
 
+.hero-card {
+    background: var(--secondary);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.hero-car-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-card-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.hero-card-top h3 {
+    white-space: nowrap;
+    background: red;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
