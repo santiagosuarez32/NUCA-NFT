@@ -31,7 +31,7 @@
 /* Header */
  header {
     /* background: rgb(32, 54, 54); */
-    background: var(--background);
+    background: var(--secondary);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,6 +90,7 @@ justify-content: center;
 align-items: center;
 /* border: 1px solid red; */
 padding: 70px 0;
+border: 1px solid red;
 }
  
 .hero-info {
@@ -99,13 +100,15 @@ padding: 70px 0;
     gap: 20px;
     width: 50%;
     align-items: flex-start;
+    border: 1px solid red;
     
 }
 
 .hero-info h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     color: var(--text-white);
+    border: 1px solid red;
 
 }
 
@@ -113,11 +116,13 @@ padding: 70px 0;
     font-size: 14px;
     width: 70%;
     color: var(--text-gray);
+    border: 1px solid red;
 }
 
 .hero-info span {
     font-weight: 800;
     text-transform: uppercase;
+    border: 1px solid red;
 }
 
 .hero-info a {
@@ -125,6 +130,8 @@ padding: 70px 0;
     color: var(--text-white);
     border-radius: 10px;
     padding: 10px 25px;
+    font-size: 14px;
+    border: 1px solid red;
 }
 
 
@@ -140,25 +147,56 @@ padding: 70px 0;
     flex-direction: column;
     gap: 20px;
     width: 300px;
+    border: 1px solid red;
 }
 
 .hero-car-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border: 1px solid red;
+    
 }
 
 .hero-card-top {
     display: flex;
     align-items: center;
     gap: 10px;
+    border: 1px red;
+    
 }
 
 
 
 .hero-card-top h3 {
     white-space: nowrap;
-    background: red;
     text-overflow: ellipsis;
     overflow: hidden;
+    font-size: 16px;
+    
 }
+.hero-card-top span {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.creator-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-card-bottom { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-card-creator {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+  
